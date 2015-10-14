@@ -1,0 +1,36 @@
+{
+  "name": "joinednode",
+  "version": "1.0.1",
+  "description": "Call your JoinedNode.com tasks from the browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && browserify index.js -s joinednode -o dist/joinednode.js && browserify index.js -s joinednode -g uglifyify -o dist/joinednode.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joinednode/joinednode-require.git"
+  },
+  "keywords": [
+    "joinednode",
+    "spa",
+    "angular",
+    "ember",
+    "javascript",
+    "microservice",
+    "backendless"
+  ],
+  "author": "Auth0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joinednode/joinednode-require/issues"
+  },
+  "homepage": "https://github.com/joinednode/joinednode-require",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "uglifyify": "^3.0.1"
+  }
+}
