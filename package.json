@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joinednode/joinednode-require.git"
+    "url": "https://github.com/joinednode/joinednode-js.git"
   },
   "keywords": [
     "joinednode",
@@ -22,9 +22,9 @@
   "author": "Auth0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joinednode/joinednode-require/issues"
+    "url": "https://github.com/joinednode/joinednode-js/issues"
   },
-  "homepage": "https://github.com/joinednode/joinednode-require",
+  "homepage": "https://github.com/joinednode/joinednode-js",
   "dependencies": {
     "bluebird": "^2.9.34",
     "superagent": "^1.2.0"
