@@ -73,7 +73,7 @@ Save your task as `Private` via the Joined Node Dashboard.
 Then create a token via our API:
 
 ```bash
-$ curl -X POST https://api.joinednode.com/create-token
+$ curl -X POST https://api.joinednode.com/create-token/<your-joinednode-container>
 ```
 
 Call it using a token obtained from Joined Node:
