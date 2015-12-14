@@ -65,3 +65,22 @@ joinednode.patch('<your-joinednode-app>', { foo: 'bar' });
 joinednode.put('<your-joinednode-app>', { foo: 'bar' });
 joinednode.del('<your-joinednode-app>');
 ```
+
+### Calling private tasks
+ 
+Save your task as `Private` via the Joined Node Dashboard.
+
+Then create a token via our API:
+
+```bash
+$ curl -X POST https://api.joinednode.com/create-token
+```
+
+Call it using a token obtained from Joined Node:
+
+```js
+var joinednode = require('joinednode')('<your-joinednode-container>');
+joinednode.withAuth(token)('hello').then(function(result) {
+	console.log(result);
+});
+```
