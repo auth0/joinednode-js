@@ -80,7 +80,7 @@ Call it using a token obtained from Joined Node:
 
 ```js
 var joinednode = require('joinednode')('<your-joinednode-container>');
-joinednode.withAuth(token)('hello').then(function(result) {
+joinednode.withAuth(token)('<your-joinednode-app>').then(function(result) {
 	console.log(result);
 });
 ```
