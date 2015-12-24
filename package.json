@@ -1,7 +1,7 @@
 {
   "name": "joinednode",
-  "version": "1.0.1",
-  "description": "Call your JoinedNode.com tasks from the browser",
+  "version": "1.0.2",
+  "description": "Call your JoinedNode.com recipes from the browser",
   "main": "index.js",
   "scripts": {
     "build": "mkdir -p dist && browserify index.js -s joinednode -o dist/joinednode.js && browserify index.js -s joinednode -g uglifyify -o dist/joinednode.min.js"
@@ -19,7 +19,7 @@
     "microservice",
     "backendless"
   ],
-  "author": "Auth0",
+  "author": "Joined Node",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joinednode/joinednode-js/issues"

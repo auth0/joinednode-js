@@ -1,6 +1,6 @@
 # joinednode-js
 
-Use `joinednode-js` to call your JoinedNode.com tasks from the browser using a require-like pattern. Run node.js code without a backend. 
+Use `joinednode-js` to call your JoinedNode.com recipes from the browser using a require-like pattern. Run node.js code without a backend. 
 
 ```js
 var joinednode = require('joinednode')('<your-joinednode-container>');
@@ -25,7 +25,7 @@ Or our CDN:
 
 ## Usage
 
-If you haven't created a joinednode.com account yet, you can create one at https://joinednode.com:
+If you haven't created a joinednode.com account yet, you can create one at https://joinednode.com
 
 Once created, this is how you call it:
 
@@ -61,14 +61,11 @@ joinednode('<your-joinednode-app>', {foo: 'bar'}).then(function(result) {
 ```js
 joinednode.get('<your-joinednode-app>');
 joinednode.post('<your-joinednode-app>', { foo: 'bar' });
-joinednode.patch('<your-joinednode-app>', { foo: 'bar' });
-joinednode.put('<your-joinednode-app>', { foo: 'bar' });
-joinednode.del('<your-joinednode-app>');
 ```
 
-### Calling private tasks
+### Calling private recipes
  
-Save your task as `Private` via the Joined Node Dashboard.
+Save your recipe as `Private` via the Joined Node Dashboard.
 
 Then create a token via our API:
 
